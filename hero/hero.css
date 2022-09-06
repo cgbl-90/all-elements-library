@@ -74,6 +74,7 @@ body {
 }
 
 .container {
+    margin-top: 150px;
     display: flex;
     flex-direction: row;
 }
@@ -82,5 +83,35 @@ body {
     background-image: none;
     background-size: none;
     opacity: 1;
-    background-color: lemonchiffon;
+    background-color: rgb(205, 255, 206);
+}
+
+.fluid-pic {
+    background-image: url(hero-background-pic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    border-radius: 5px;
+    width: 40%;
+    display: block;
+    margin-top: 40px;
+}
+
+.lft-lgn {
+    text-align: right;
+    padding: 40px 40px;
+    color: black;
+}
+
+.c-items {
+    max-width: 50%;
+}
+
+.btn-lft {
+    border: 2px solid black;
+}
+
+.btn-lft:hover,
+.btn-lft:focus {
+    border: 2px solid green;
 }
